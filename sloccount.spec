@@ -9,6 +9,7 @@ License: GPL
 Group: Development/Other
 Source: http://www.dwheeler.com/sloccount/%name-%version.tar.bz2
 URL: http://www.dwheeler.com/sloccount
+BuildRoot: %{_tmppath}/%name-buildroot
 BuildRequires:	flex
 
 %description
