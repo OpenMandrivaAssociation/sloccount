@@ -4,7 +4,7 @@
 Name: %name
 Summary: Measures source lines of code (SLOC) in programs
 Version: %version
-Release: %mkrel 7
+Release: %mkrel 8
 License: GPL
 Group: Development/Other
 Source: http://www.dwheeler.com/sloccount/%name-%version.tar.bz2
