@@ -52,3 +52,31 @@ rm -rf ${RPM_BUILD_ROOT}
 %{_mandir}/*/*
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.26-8mdv2010.0
++ Revision: 433937
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.26-7mdv2009.0
++ Revision: 260809
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.26-6mdv2009.0
++ Revision: 252612
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 2.26-4mdv2008.1
++ Revision: 136503
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Oct 31 2006 Michael Scherer <misc@mandriva.org> 2.26-4mdv2007.0
++ Revision: 74682
+- Bump release
+- Import sloccount
+
