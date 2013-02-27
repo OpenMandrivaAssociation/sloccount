@@ -1,5 +1,7 @@
 %define name sloccount
 %define version 2.26
+%define debug_package          %{nil}
+
 
 Name: %name
 Summary: Measures source lines of code (SLOC) in programs
