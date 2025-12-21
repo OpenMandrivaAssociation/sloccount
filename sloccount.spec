@@ -12,6 +12,7 @@ Group: Development/Other
 Source: http://www.dwheeler.com/sloccount/%name-%version.tar.bz2
 URL: https://www.dwheeler.com/sloccount
 BuildRoot: %{_tmppath}/%name-buildroot
+BuildRequires:	make
 BuildRequires:	flex
 
 %description
